@@ -1,0 +1,17 @@
+{
+  "name": "docker-ubuntu-rpa",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "./start.sh",
+    "stop": "./stop.sh",
+    "restart": "./restart.sh",
+    "logs": "./logs.sh",
+    "patch": "npm version patch -m 'chore(release): %s' && git push",
+    "minor": "npm version minor -m 'chore(release): %s' && git push",
+    "major": "npm version major -m 'chore(release): %s' && git push",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
+}
