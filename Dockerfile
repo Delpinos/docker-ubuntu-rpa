@@ -78,6 +78,7 @@ RUN apt-get -qq update && apt-get install -y --no-install-recommends --allow-una
   libasound2 \
   libatk1.0-0 \
   libc6 \
+  libc6-dev \
   libcairo2 \
   libcups2 \
   libdbus-1-3 \
@@ -85,6 +86,7 @@ RUN apt-get -qq update && apt-get install -y --no-install-recommends --allow-una
   libgbm-dev \
   libgcc1 \
   libgconf-2-4 \
+  libgdiplus \
   libgdk-pixbuf2.0-0 \
   libglib2.0-0 \
   libgtk-3-0 \
@@ -97,6 +99,7 @@ RUN apt-get -qq update && apt-get install -y --no-install-recommends --allow-una
   libssl-dev \
   libstdc++6 \
   libx11-6 \
+  libx11-dev \
   libx11-xcb1 \
   libxcb1 \
   libxcomposite1 \
